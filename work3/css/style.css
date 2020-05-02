@@ -1,0 +1,125 @@
+共用
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Roboto+Slab:wght@400;500;600;900&display=swap');
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: ;#650300;
+}
+a{
+    text-decoration:none;
+}
+.enFont{
+    font-family: 'Roboto Slab',  sans-serif;
+}
+.fontColor1{
+    color: #FFFFFF;
+}
+.fontColor2{
+    color: #000000;
+}
+.backgroundColor{
+    background-color: #AA0601;
+}
+h1{
+    font-size: 64px;
+    line-height: 96px;
+}
+h2{
+    font-size: 48px;
+    line-height: 72px;
+}
+h3{
+    font-size: 36px;
+    line-height: 54px;
+}
+.font-1{
+    font-size: 36px;
+    line-height: 54px;
+}
+.font-2{
+    font-size: 24px;
+    line-height: 36px;
+}
+.font-3{
+    font-size: 20px;
+    line-height: 30px;
+}
+.font-4{
+    font-size: 16px;
+    line-height: 24px;
+}
+.font-5{
+    font-size: 16px;
+    line-height: 21px;
+}
+.margin-center {
+    margin: 0 auto;
+  }
+
+
+.
+/* PC */
+/* header */
+.menuBtn {
+    display: none;
+    color: #FFFFFF;
+  }
+.header-menu{
+    padding: 30px 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.list .item{
+    width: 25%;
+}
+
+/* 768~992px pad樣式 */
+@media (max-width:992px){
+    h1{
+        font-size: 48px;
+        line-height: 72px;
+    }
+    h2{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .list .item{
+        width: 50%;
+    }
+}
+
+/* 768px直視 767px 手機以下320 375 414px */
+@media (max-width:767px){
+    h1{
+        font-size: 32px;
+        line-height: 72px;
+    }
+    h2{
+        font-size: 24px;
+        line-height: 48px;
+    }
+    h3{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .list .item{
+        width: 100%;
+    }
+    .menuBtn {
+        display: block;
+        position: absolute;
+        left: 13px;
+        width: 24px;
+      }
+}
